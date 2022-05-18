@@ -1,0 +1,171 @@
+.line-left-sctn ul li {
+    width: 20%;
+    float: left;
+    position: relative;
+  }
+  .line-left-sctn ul li img {
+    width: 100%;
+  }
+  .event-full-top h4 {
+    color: #fff;
+    font-family: "Inter-Bold";
+    font-size: 20px;
+  }
+  .break-word {
+    display: inline-block;
+    width: 100%;
+  }
+  .event-full-top {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .event-content {
+    position: absolute;
+    top: 40%;
+  }
+  .line-left-sctn li .vip-btn {
+    display: inline-flex;
+    align-items: center;
+    bottom: 11px;
+  }
+  .line-left-sctn li .vip-btn img {
+    width: 16px;
+  }
+  .club-m-name {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    bottom: 10px;
+    font-family: "Asap-Regular";
+  }
+  .club_sidebar {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 90%;
+  }
+  .club_sidebar .chat-msg-box {
+    position: absolute;
+    top: 100%;
+  }
+  .invite-friend {
+    color: #a833b9;
+    font-size: 20px;
+    font-family: "Asap-Regular";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 43%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .lounge-hover-box {
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    top: 0%;
+    background: rgba(20, 20, 43, 0.7);
+    border: 2px solid #a833b9;
+    width: 100%;
+    height: 100%;
+    display: none;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .line-left-sctn ul li .sort-icon {
+    width: auto;
+  }
+  .line-left-sctn ul li .lounge-hover-box .sort-icon {
+    top: 10px;
+    left: 14px;
+  }
+  .lounge-hover-box .cross-icon {
+    top: 9px;
+    right: 11px;
+    line-height: 20px;
+  }
+  .lounge-hover-box .chat-iconn {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    max-width: 20px;
+  }
+  .booth-hover-box {
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    top: 0%;
+    background: rgba(20, 20, 43, 0.7);
+    border: 2px solid #a833b9;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    text-align: center;
+    display: none;
+  }
+  .booth-btns a {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .booth-btns .chat-btn-light {
+    padding: 5px 33px;
+  }
+  .booth-hover-box .sort-icon {
+    left: 8px;
+    top: 18px;
+  }
+  .booth-hover-box .club-m-name {
+    font-size: 18px;
+  }
+  .booth-hover-box .cross-icon {
+    line-height: 20px;
+  }
+  .chat-box:hover .booth-hover-box {
+    display: flex;
+  }
+  .line-left-sctn ul li:hover .lounge-hover-box {
+    display: block;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .booth-btns a {
+      margin-bottom: 5px;
+    }
+    .line-left-sctn ul li {
+      width: 25%;
+    }
+    .event-full-top h4 {
+      color: #fff;
+      font-family: "Inter-Bold";
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .line-left-sctn ul li {
+      width: 33.3333%;
+    }
+    .event-full-top h4 {
+      color: #fff;
+      font-family: "Inter-Bold";
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .line-left-sctn ul li {
+      width: 50%;
+    }
+
+    .event-full-top h4 {
+      color: #fff;
+      font-family: "Inter-Bold";
+      font-size: 17px;
+    }
+  }
+  

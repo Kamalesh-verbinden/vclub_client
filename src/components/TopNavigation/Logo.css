@@ -1,0 +1,37 @@
+.bg-white{
+background-color: #fff;
+padding: 8px 8px;
+}
+.vlclubs-logo-main a{
+ font-size: 45px;
+ text-decoration: none;
+ color: #080134;
+ font-weight: bolder;
+ letter-spacing: -2.2px;
+ margin:0px 130px;
+}
+.vlclubs-logo-main span {
+    color: #e30a4b;
+  }
+  
+/* mobile-L-425px--view */
+@media (max-width:425px){
+  .bg-white{
+    background-color: #fff;
+    padding: 4px 4px;
+    }
+    .vlclubs-logo-main a{
+     font-size: 25px;
+     text-decoration: none;
+     color: #080134;
+     font-weight: bolder;
+     display: flex;
+     letter-spacing: -2.2px;
+    }
+    .vlclubs-logo-main span {
+      color: #e30a4b;
+      margin-left: 10px;
+  }
+}
+
+
